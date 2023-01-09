@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+        color: white;
+}
+.background{
+    background-image: url(/images/312395760_648789680031176_8435825328079276964_n.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overview{
+    display: flex;
+}
+
+.profile-page .info-box .box{
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    transition: 0.3s;
+}
+.profile-page .info-box .box:hover{
+    font-size: 22px;
+    cursor: pointer;
+}
+.profile-page .info-box .box h4{
+    font-weight: normal;
+    
+}
+.profile-page .avatar-box > img {
+    width: 120px;
+    height: 120px;
+}
+.profile-page .avatar-box h3{
+    padding: 4px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.overview{
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(4, 42, 80, 0.75);
+    width: auto;
+    border-radius: 10px;
+
+}
+.box{
+    display: flex;
+    width: 70%;
+    font-size: 19px;
+    font-weight: 400;
+}
